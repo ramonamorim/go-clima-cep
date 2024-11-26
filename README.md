@@ -7,10 +7,10 @@ Projeto de Laboratório Cloud Run do curso Go Expert.
 
 #### Executa a aplicação no container
 ```
-make up:
+make up
 ```
 
-#### Para o container
+#### Parar o container
 ```
 make stop
  ```
