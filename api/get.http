@@ -1,0 +1,18 @@
+# Sucesso
+GET http://localhost:8080/weather/89221220 HTTP/1.1
+Host: localhost:8080
+Content-Type: application/json
+
+###
+
+# Erro: 404 can not find zipcode
+GET http://localhost:8080/weather/99999999 HTTP/1.1
+Host: localhost:8080
+Content-Type: application/json
+
+###
+
+# Erro: 422 invalid zipcode
+GET http://localhost:8080/weather/0000000000 HTTP/1.1
+Host: localhost:8080
+Content-Type: application/json
